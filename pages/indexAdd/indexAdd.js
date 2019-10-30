@@ -6,8 +6,7 @@ Page({
    */
   data:
   {
-      index:"..",
-      name:"",
+     index:""
 
   },
 
@@ -17,7 +16,8 @@ Page({
     that.setData({
 
 
-   index:options.index
+      index:options.index
+      
 
         
 
@@ -40,7 +40,13 @@ Page({
       name: e.detail.value.name
 
     })
+
    
+
+
+   wx.redirectTo({
+     url: '../index/index?index=' + e.detail.value.index + '&name=' + e.detail.value.name,
+   })
 
   }
 
