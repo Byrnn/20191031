@@ -1,0 +1,9 @@
+<form bindsubmit="formSubmit" >
+
+
+<input placeholder="编码"  value="{{index}}" name = "index" disabled=""></input>
+
+<input  placeholder="姓名" value="{{name}}" name = "name"></input>
+
+<button formType="submit">提交</button>
+</form>

@@ -1,0 +1,10 @@
+<button bindtap="add">新建</button>
+
+<view wx:for="{{list}}">
+
+<input value="{{item.index}}" name ="index"></input>
+
+<input value="{{item.name}}" name ="name"></input>
+
+</view>
+

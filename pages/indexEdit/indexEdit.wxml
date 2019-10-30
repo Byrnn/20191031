@@ -1,0 +1,5 @@
+
+
+<input placeholder="编码"  value="{{index}}" disabled=""></input>
+
+<input  placeholder="姓名" value="{{name}}"></input>
